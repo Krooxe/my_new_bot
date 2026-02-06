@@ -1,0 +1,1704 @@
+[
+  {
+    "id": "600057328",
+    "uid": "s:3301~l:3321~e:600057328",
+    "date": "2026-02-07T22:00Z",
+    "name": "UFC Fight Night: Bautista vs. Oliveira",
+    "shortName": "UFC Fight Night",
+    "season": {
+      "year": 2026,
+      "type": 2,
+      "slug": "regular-season"
+    },
+    "competitions": [
+      {
+        "id": "401845810",
+        "uid": "s:3301~l:3321~e:600057328~c:401845810",
+        "date": "2026-02-07T22:00Z",
+        "endDate": "2026-02-07T22:00Z",
+        "type": {
+          "id": "1003",
+          "abbreviation": "W Bantamweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4277049",
+            "uid": "s:3301~a:4277049",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Priscila Cachoeira",
+              "displayName": "Priscila Cachoeira",
+              "shortName": "P. Cachoeira",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "alt": "Brazil",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "13-7-0"
+              }
+            ]
+          },
+          {
+            "id": "5122175",
+            "uid": "s:3301~a:5122175",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Klaudia Syguła",
+              "displayName": "Klaudia Syguła",
+              "shortName": "K. Syguła",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+                "alt": "Poland",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "7-2-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 5:00 PM EST",
+            "shortDetail": "2/7 - 5:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-07T22:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401851842",
+        "uid": "s:3301~l:3321~e:600057328~c:401851842",
+        "date": "2026-02-07T22:00Z",
+        "endDate": "2026-02-07T22:00Z",
+        "type": {
+          "id": "970",
+          "abbreviation": "Bantamweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "3960072",
+            "uid": "s:3301~a:3960072",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Muin Gafurov",
+              "displayName": "Muin Gafurov",
+              "shortName": "M. Gafurov",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/tjk.png",
+                "alt": "Tajikistan",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "20-6-0"
+              }
+            ]
+          },
+          {
+            "id": "4371005",
+            "uid": "s:3301~a:4371005",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Jakub Wikłacz",
+              "displayName": "Jakub Wikłacz",
+              "shortName": "J. Wikłacz",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+                "alt": "Poland",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "17-3-2"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 5:00 PM EST",
+            "shortDetail": "2/7 - 5:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-07T22:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401838299",
+        "uid": "s:3301~l:3321~e:600057328~c:401838299",
+        "date": "2026-02-07T22:00Z",
+        "endDate": "2026-02-07T22:00Z",
+        "type": {
+          "id": "1007",
+          "abbreviation": "W Flyweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4215200",
+            "uid": "s:3301~a:4215200",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Wang Cong",
+              "displayName": "Wang Cong",
+              "shortName": "W. Cong",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/chn.png",
+                "alt": "China",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "8-1-0"
+              }
+            ]
+          },
+          {
+            "id": "5143888",
+            "uid": "s:3301~a:5143888",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Eduarda Moura",
+              "displayName": "Eduarda Moura",
+              "shortName": "E. Moura",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "alt": "Brazil",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "12-1-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 5:00 PM EST",
+            "shortDetail": "2/7 - 5:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-07T22:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401859845",
+        "uid": "s:3301~l:3321~e:600057328~c:401859845",
+        "date": "2026-02-07T22:00Z",
+        "endDate": "2026-02-07T22:00Z",
+        "type": {
+          "id": "970",
+          "abbreviation": "Bantamweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4867357",
+            "uid": "s:3301~a:4867357",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Javid Basharat",
+              "displayName": "Javid Basharat",
+              "shortName": "J. Basharat",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/afg.png",
+                "alt": "Afghanistan",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "14-2-0"
+              }
+            ]
+          },
+          {
+            "id": "4887310",
+            "uid": "s:3301~a:4887310",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Gianni Vazquez",
+              "displayName": "Gianni Vazquez",
+              "shortName": "G. Vazquez",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+                "alt": "Mexico",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "1-2-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 5:00 PM EST",
+            "shortDetail": "2/7 - 5:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-07T22:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401845809",
+        "uid": "s:3301~l:3321~e:600057328~c:401845809",
+        "date": "2026-02-07T22:00Z",
+        "endDate": "2026-02-07T22:00Z",
+        "type": {
+          "id": "1006",
+          "abbreviation": "W Strawweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4394200",
+            "uid": "s:3301~a:4394200",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Bruna Brasil",
+              "displayName": "Bruna Brasil",
+              "shortName": "B. Brasil",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "alt": "Brazil",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "11-5-1"
+              }
+            ]
+          },
+          {
+            "id": "4566308",
+            "uid": "s:3301~a:4566308",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Ketlen Souza",
+              "displayName": "Ketlen Souza",
+              "shortName": "K. Souza",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "alt": "Brazil",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "15-6-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 5:00 PM EST",
+            "shortDetail": "2/7 - 5:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-07T22:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401859133",
+        "uid": "s:3301~l:3321~e:600057328~c:401859133",
+        "date": "2026-02-07T22:00Z",
+        "endDate": "2026-02-07T22:00Z",
+        "type": {
+          "id": "969",
+          "abbreviation": "Welterweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4077451",
+            "uid": "s:3301~a:4077451",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Niko Price",
+              "displayName": "Niko Price",
+              "shortName": "N. Price",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                "alt": "USA",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "16-9-0"
+              }
+            ]
+          },
+          {
+            "id": "4700616",
+            "uid": "s:3301~a:4700616",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Nikolay Veretennikov",
+              "displayName": "Nikolay Veretennikov",
+              "shortName": "N. Veretennikov",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/kaz.png",
+                "alt": "Kazakhstan",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "13-7-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 5:00 PM EST",
+            "shortDetail": "2/7 - 5:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-07T22:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401858860",
+        "uid": "s:3301~l:3321~e:600057328~c:401858860",
+        "date": "2026-02-07T22:00Z",
+        "endDate": "2026-02-07T22:00Z",
+        "type": {
+          "id": "969",
+          "abbreviation": "Welterweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "3088232",
+            "uid": "s:3301~a:3088232",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Alex Morono",
+              "displayName": "Alex Morono",
+              "shortName": "A. Morono",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                "alt": "USA",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "24-12-0"
+              }
+            ]
+          },
+          {
+            "id": "5289841",
+            "uid": "s:3301~a:5289841",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Daniil Donchenko",
+              "displayName": "Daniil Donchenko",
+              "shortName": "D. Donchenko",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
+                "alt": "Ukraine",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "13-2-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 5:00 PM EST",
+            "shortDetail": "2/7 - 5:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-07T22:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401858859",
+        "uid": "s:3301~l:3321~e:600057328~c:401858859",
+        "date": "2026-02-08T01:00Z",
+        "endDate": "2026-02-08T01:00Z",
+        "type": {
+          "id": "990",
+          "abbreviation": "Light Heavyweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "2594871",
+            "uid": "s:3301~a:2594871",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Dustin Jacoby",
+              "displayName": "Dustin Jacoby",
+              "shortName": "D. Jacoby",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                "alt": "USA",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "21-9-1"
+              }
+            ]
+          },
+          {
+            "id": "5264398",
+            "uid": "s:3301~a:5264398",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Julius Walker",
+              "displayName": "Julius Walker",
+              "shortName": "J. Walker",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                "alt": "USA",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "7-1-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 8:00 PM EST",
+            "shortDetail": "2/7 - 8:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-08T01:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401840101",
+        "uid": "s:3301~l:3321~e:600057328~c:401840101",
+        "date": "2026-02-08T01:00Z",
+        "endDate": "2026-02-08T01:00Z",
+        "type": {
+          "id": "970",
+          "abbreviation": "Bantamweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "5016786",
+            "uid": "s:3301~a:5016786",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Farid Basharat",
+              "displayName": "Farid Basharat",
+              "shortName": "F. Basharat",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/afg.png",
+                "alt": "Afghanistan",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "14-0-0"
+              }
+            ]
+          },
+          {
+            "id": "5149439",
+            "uid": "s:3301~a:5149439",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Jean Matsumoto",
+              "displayName": "Jean Matsumoto",
+              "shortName": "J. Matsumoto",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "alt": "Brazil",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "17-1-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 8:00 PM EST",
+            "shortDetail": "2/7 - 8:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-08T01:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401840100",
+        "uid": "s:3301~l:3321~e:600057328~c:401840100",
+        "date": "2026-02-08T01:00Z",
+        "endDate": "2026-02-08T01:00Z",
+        "type": {
+          "id": "972",
+          "abbreviation": "Middleweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4012999",
+            "uid": "s:3301~a:4012999",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Michal Oleksiejczuk",
+              "displayName": "Michal Oleksiejczuk",
+              "shortName": "M. Oleksiejczuk",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png",
+                "alt": "Poland",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "21-9-0"
+              }
+            ]
+          },
+          {
+            "id": "4415883",
+            "uid": "s:3301~a:4415883",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Marc-Andre Barriault",
+              "displayName": "Marc-Andre Barriault",
+              "shortName": "M. Barriault",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+                "alt": "Canada",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "17-10-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 8:00 PM EST",
+            "shortDetail": "2/7 - 8:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-08T01:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401858858",
+        "uid": "s:3301~l:3321~e:600057328~c:401858858",
+        "date": "2026-02-08T01:00Z",
+        "endDate": "2026-02-08T01:00Z",
+        "type": {
+          "id": "982",
+          "abbreviation": "Heavyweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4001837",
+            "uid": "s:3301~a:4001837",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Rizvan Kuniev",
+              "displayName": "Rizvan Kuniev",
+              "shortName": "R. Kuniev",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/rus.png",
+                "alt": "Russia",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "12-3-1"
+              }
+            ]
+          },
+          {
+            "id": "4873640",
+            "uid": "s:3301~a:4873640",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Jailton Almeida",
+              "displayName": "Jailton Almeida",
+              "shortName": "J. Almeida",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "alt": "Brazil",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "22-4-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 8:00 PM EST",
+            "shortDetail": "2/7 - 8:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-08T01:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401840098",
+        "uid": "s:3301~l:3321~e:600057328~c:401840098",
+        "date": "2026-02-08T01:00Z",
+        "endDate": "2026-02-08T01:00Z",
+        "type": {
+          "id": "956",
+          "abbreviation": "Flyweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "2613374",
+            "uid": "s:3301~a:2613374",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Kyoji Horiguchi",
+              "displayName": "Kyoji Horiguchi",
+              "shortName": "K. Horiguchi",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+                "alt": "Japan",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "35-5-0"
+              }
+            ]
+          },
+          {
+            "id": "4684848",
+            "uid": "s:3301~a:4684848",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Amir Albazi",
+              "displayName": "Amir Albazi",
+              "shortName": "A. Albazi",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+                "alt": "Iraq",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "17-2-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 8:00 PM EST",
+            "shortDetail": "2/7 - 8:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 3
+          }
+        },
+        "startDate": "2026-02-08T01:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      },
+      {
+        "id": "401838298",
+        "uid": "s:3301~l:3321~e:600057328~c:401838298",
+        "date": "2026-02-08T01:00Z",
+        "endDate": "2026-02-08T01:00Z",
+        "type": {
+          "id": "970",
+          "abbreviation": "Bantamweight"
+        },
+        "timeValid": true,
+        "neutralSite": false,
+        "playByPlayAvailable": false,
+        "recent": false,
+        "venue": {
+          "id": "6176",
+          "fullName": "Meta APEX",
+          "address": {
+            "city": "Las Vegas",
+            "state": "NV",
+            "country": "USA"
+          },
+          "indoor": true
+        },
+        "competitors": [
+          {
+            "id": "4410868",
+            "uid": "s:3301~a:4410868",
+            "type": "athlete",
+            "order": 1,
+            "winner": false,
+            "athlete": {
+              "fullName": "Mario Bautista",
+              "displayName": "Mario Bautista",
+              "shortName": "M. Bautista",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+                "alt": "USA",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "16-3-0"
+              }
+            ]
+          },
+          {
+            "id": "4884877",
+            "uid": "s:3301~a:4884877",
+            "type": "athlete",
+            "order": 2,
+            "winner": false,
+            "athlete": {
+              "fullName": "Vinicius Oliveira",
+              "displayName": "Vinicius Oliveira",
+              "shortName": "V. Oliveira",
+              "flag": {
+                "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+                "alt": "Brazil",
+                "rel": [
+                  "country-flag"
+                ]
+              }
+            },
+            "records": [
+              {
+                "name": "overall",
+                "abbreviation": "TOT",
+                "type": "total",
+                "summary": "23-3-0"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "clock": 0.0,
+          "displayClock": "-",
+          "period": 0,
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sat, February 7th at 8:00 PM EST",
+            "shortDetail": "2/7 - 8:00 PM EST"
+          }
+        },
+        "broadcasts": [
+          {
+            "market": "national",
+            "names": [
+              "Paramount+"
+            ]
+          }
+        ],
+        "format": {
+          "regulation": {
+            "periods": 5
+          }
+        },
+        "startDate": "2026-02-08T01:00Z",
+        "broadcast": "Paramount+",
+        "geoBroadcasts": [
+          {
+            "type": {
+              "id": "4",
+              "shortName": "Streaming"
+            },
+            "market": {
+              "id": "1",
+              "type": "National"
+            },
+            "media": {
+              "shortName": "Paramount+"
+            },
+            "lang": "en",
+            "region": "us"
+          }
+        ],
+        "highlights": []
+      }
+    ],
+    "links": [
+      {
+        "language": "en-US",
+        "rel": [
+          "summary",
+          "desktop",
+          "event"
+        ],
+        "href": "https://www.espn.com/mma/fightcenter/_/id/600057328/league/ufc",
+        "text": "Gamecast",
+        "shortText": "Gamecast",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "venues": [
+      {
+        "id": "6176",
+        "fullName": "Meta APEX",
+        "address": {
+          "city": "Las Vegas",
+          "state": "NV",
+          "country": "USA"
+        }
+      }
+    ],
+    "status": {
+      "type": {
+        "id": "1",
+        "name": "STATUS_SCHEDULED",
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Scheduled",
+        "shortDetail": "Scheduled"
+      }
+    }
+  }
+]

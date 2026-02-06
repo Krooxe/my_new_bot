@@ -1,0 +1,230 @@
+[
+  {
+    "name": "UFC Fight Night: Bautista vs. Oliveira",
+    "date": "07.02.2026 22:00",
+    "location": "Las Vegas, USA",
+    "fights": [
+      {
+        "name": "Priscila Cachoeira vs Klaudia Syguła",
+        "fighters": [
+          {
+            "name": "Priscila Cachoeira",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Klaudia Syguła",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Muin Gafurov vs Jakub Wikłacz",
+        "fighters": [
+          {
+            "name": "Muin Gafurov",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Jakub Wikłacz",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Wang Cong vs Eduarda Moura",
+        "fighters": [
+          {
+            "name": "Wang Cong",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Eduarda Moura",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Javid Basharat vs Gianni Vazquez",
+        "fighters": [
+          {
+            "name": "Javid Basharat",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Gianni Vazquez",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Bruna Brasil vs Ketlen Souza",
+        "fighters": [
+          {
+            "name": "Bruna Brasil",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Ketlen Souza",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Niko Price vs Nikolay Veretennikov",
+        "fighters": [
+          {
+            "name": "Niko Price",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Nikolay Veretennikov",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Alex Morono vs Daniil Donchenko",
+        "fighters": [
+          {
+            "name": "Alex Morono",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Daniil Donchenko",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Dustin Jacoby vs Julius Walker",
+        "fighters": [
+          {
+            "name": "Dustin Jacoby",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Julius Walker",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Farid Basharat vs Jean Matsumoto",
+        "fighters": [
+          {
+            "name": "Farid Basharat",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Jean Matsumoto",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Michal Oleksiejczuk vs Marc-Andre Barriault",
+        "fighters": [
+          {
+            "name": "Michal Oleksiejczuk",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Marc-Andre Barriault",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Rizvan Kuniev vs Jailton Almeida",
+        "fighters": [
+          {
+            "name": "Rizvan Kuniev",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Jailton Almeida",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Kyoji Horiguchi vs Amir Albazi",
+        "fighters": [
+          {
+            "name": "Kyoji Horiguchi",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Amir Albazi",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      },
+      {
+        "name": "Mario Bautista vs Vinicius Oliveira",
+        "fighters": [
+          {
+            "name": "Mario Bautista",
+            "record": "",
+            "winner": false
+          },
+          {
+            "name": "Vinicius Oliveira",
+            "record": "",
+            "winner": false
+          }
+        ],
+        "status": "Scheduled",
+        "round": 0
+      }
+    ]
+  }
+]

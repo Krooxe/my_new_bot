@@ -1,12 +1,16 @@
 """
 Обработчики для админ-панели
 """
+# import os
 import logging
 from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-
 from config import ADMIN_ID
+# from dotenv import load_dotenv
+
+# Загружаем переменные из .env
+# load_dotenv()
 
 logger = logging.getLogger(__name__)
 router = Router()
@@ -32,7 +36,14 @@ async def admin_panel_handler(message: Message):
     Доступен только для администратора
     """
     user = message.from_user
+
+    # ОТЛАДОЧНЫЙ ВЫВОД
+    print(f"DEBUG: user.id = {user.id}, type = {type(user.id)}")
+    print(f"DEBUG: ADMIN_ID = {ADMIN_ID}, type = {type(ADMIN_ID)}")
     
+    # Отладочная информация
+    logger.info(f"User ID: {user.id}, ADMIN_ID from .env: {ADMIN_ID}")
+
     # Проверка прав администратора
     if user.id != ADMIN_ID:
         logger.warning(f"Попытка доступа к админ-панели от пользователя {user.id} ({user.username})")
