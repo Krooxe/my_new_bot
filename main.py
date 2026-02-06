@@ -3,6 +3,7 @@ import os
 import logging
 from aiogram import Bot, Dispatcher
 from aiogram.types import BotCommand
+from aiogram.fsm.storage.memory import MemoryStorage  # Импорт для FSM
 from dotenv import load_dotenv
 
 from handlers import get_all_routers
@@ -49,14 +50,23 @@ async def set_bot_commands(bot: Bot):
 async def main():
     logger.info("Инициализация бота...")
     
+    # 1. Создаём экземпляр бота
     bot = Bot(token=BOT_TOKEN)
-    dp = Dispatcher()
-
-    # Регистрируем все роутеры из папки handlers
+    
+    # 2. Инициализируем хранилище состояний (FSM) для админ-панели
+    storage = MemoryStorage()
+    dp = Dispatcher(storage=storage)
+    
+    # 3. Передаём экземпляр бота в модуль announcement для рассылки
+    #    ЭТО САМОЕ ВАЖНОЕ ДЛЯ РАБОТЫ РАССЫЛКИ
+    from handlers.admin.announcement import set_bot
+    set_bot(bot)
+    
+    # 4. Регистрируем все роутеры из папки handlers
     for router in get_all_routers():
         dp.include_router(router)
     
-    # Устанавливаем команды в меню бота
+    # 5. Устанавливаем команды в меню бота
     await set_bot_commands(bot)
     
     logger.info("Бот запущен! Ожидание сообщений...")
