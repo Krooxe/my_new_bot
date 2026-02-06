@@ -194,58 +194,58 @@ class Database:
     
     # ========== МЕТОДЫ ДЛЯ ТУРНИРОВ ==========
     
-    def save_tournament(self, tournament: Tournament) -> bool:
-        """Сохраняет турнир в базу"""
-        try:
-            with self._get_connection() as conn:
-                cursor = conn.cursor()
+    # def save_tournament(self, tournament: Tournament) -> bool:
+    #     """Сохраняет турнир в базу"""
+    #     try:
+    #         with self._get_connection() as conn:
+    #             cursor = conn.cursor()
                 
-                # Конвертируем бои в JSON
-                fights_json = json.dumps(tournament.fights, ensure_ascii=False)
+    #             # Конвертируем бои в JSON
+    #             fights_json = json.dumps(tournament.fights, ensure_ascii=False)
                 
-                cursor.execute("""
-                    INSERT OR REPLACE INTO tournaments 
-                    (tournament_id, name, date, location, fights, status, bets_open, created_at)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                """, (
-                    tournament.tournament_id, tournament.name, tournament.date,
-                    tournament.location, fights_json, tournament.status,
-                    tournament.bets_open, tournament.created_at.isoformat()
-                ))
+    #             cursor.execute("""
+    #                 INSERT OR REPLACE INTO tournaments 
+    #                 (tournament_id, name, date, location, fights, status, bets_open, created_at)
+    #                 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    #             """, (
+    #                 tournament.tournament_id, tournament.name, tournament.date,
+    #                 tournament.location, fights_json, tournament.status,
+    #                 tournament.bets_open, tournament.created_at.isoformat()
+    #             ))
                 
-                conn.commit()
-                logger.info(f"Турнир сохранён: {tournament.tournament_id}")
-                return True
-        except Exception as e:
-            logger.error(f"Ошибка при сохранении турнира {tournament.tournament_id}: {e}")
-            return False
+    #             conn.commit()
+    #             logger.info(f"Турнир сохранён: {tournament.tournament_id}")
+    #             return True
+    #     except Exception as e:
+    #         logger.error(f"Ошибка при сохранении турнира {tournament.tournament_id}: {e}")
+    #         return False
     
-    def get_active_tournament(self) -> Optional[Tournament]:
-        """Получает активный турнир"""
-        try:
-            with self._get_connection() as conn:
-                cursor = conn.cursor()
-                cursor.execute(
-                    "SELECT * FROM tournaments WHERE status = 'active' ORDER BY created_at DESC LIMIT 1"
-                )
-                row = cursor.fetchone()
+    # def get_active_tournament(self) -> Optional[Tournament]:
+    #     """Получает активный турнир"""
+    #     try:
+    #         with self._get_connection() as conn:
+    #             cursor = conn.cursor()
+    #             cursor.execute(
+    #                 "SELECT * FROM tournaments WHERE status = 'active' ORDER BY created_at DESC LIMIT 1"
+    #             )
+    #             row = cursor.fetchone()
                 
-                if row:
-                    fights = json.loads(row['fights']) if row['fights'] else []
-                    return Tournament(
-                        tournament_id=row['tournament_id'],
-                        name=row['name'],
-                        date=row['date'],
-                        location=row['location'],
-                        fights=fights,
-                        status=row['status'],
-                        bets_open=bool(row['bets_open']),
-                        created_at=datetime.fromisoformat(row['created_at'])
-                    )
-                return None
-        except Exception as e:
-            logger.error(f"Ошибка при получении активного турнира: {e}")
-            return None
+    #             if row:
+    #                 fights = json.loads(row['fights']) if row['fights'] else []
+    #                 return Tournament(
+    #                     tournament_id=row['tournament_id'],
+    #                     name=row['name'],
+    #                     date=row['date'],
+    #                     location=row['location'],
+    #                     fights=fights,
+    #                     status=row['status'],
+    #                     bets_open=bool(row['bets_open']),
+    #                     created_at=datetime.fromisoformat(row['created_at'])
+    #                 )
+    #             return None
+    #     except Exception as e:
+    #         logger.error(f"Ошибка при получении активного турнира: {e}")
+    #         return None
     
     # ========== МЕТОДЫ ДЛЯ СТАВОК ==========
     # (пока заглушки, добавим позже)

@@ -7,9 +7,6 @@ import logging
 from typing import Dict, Any, Optional
 from datetime import datetime
 
-from db.database import db
-from db.models import Tournament
-
 logger = logging.getLogger(__name__)
 
 class JSONStorage:
@@ -20,10 +17,10 @@ class JSONStorage:
     
     def save_current_tournament(self, tournament_data: Dict[str, Any]) -> bool:
         """
-        Сохраняет текущий активный турнир в JSON И в базу данных
+        Сохраняет текущий активный турнир ТОЛЬКО в JSON
         """
         try:
-            # Сохраняем в JSON (для обратной совместимости)
+            # Сохраняем в JSON
             tournament_with_meta = {
                 **tournament_data,
                 "_meta": {
@@ -36,20 +33,7 @@ class JSONStorage:
             with open(self.current_tournament_path, 'w', encoding='utf-8') as f:
                 json.dump(tournament_with_meta, f, indent=2, ensure_ascii=False)
             
-            # Сохраняем в базу данных
-            tournament_obj = Tournament(
-                tournament_id=tournament_data["id"],
-                name=tournament_data["name"],
-                date=tournament_data["date"],
-                location=tournament_data["location"],
-                fights=tournament_data.get("fights", []),
-                status="active",
-                bets_open=True
-            )
-            
-            db.save_tournament(tournament_obj)
-            
-            logger.info(f"Турнир сохранён в БД и JSON: {tournament_data.get('name', 'Unknown')}")
+            logger.info(f"Турнир сохранён в JSON: {tournament_data.get('name', 'Unknown')}")
             return True
             
         except Exception as e:
@@ -58,39 +42,57 @@ class JSONStorage:
     
     def get_current_tournament(self) -> Optional[Dict[str, Any]]:
         """
-        Получает текущий активный турнир из базы данных
+        Получает текущий активный турнир ТОЛЬКО из JSON
         """
         try:
-            # Пробуем получить из базы данных
-            tournament = db.get_active_tournament()
+            if not os.path.exists(self.current_tournament_path):
+                return None
             
-            if tournament:
-                return {
-                    "id": tournament.tournament_id,
-                    "name": tournament.name,
-                    "date": tournament.date,
-                    "location": tournament.location,
-                    "fights": tournament.fights,
-                    "status": tournament.status,
-                    "bets_open": tournament.bets_open,
-                    "_meta": {
-                        "selected_at": tournament.created_at.isoformat(),
-                        "active": True
-                    }
-                }
+            with open(self.current_tournament_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
             
-            # Если в базе нет, пробуем JSON (для обратной совместимости)
-            if os.path.exists(self.current_tournament_path):
-                with open(self.current_tournament_path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+            # Проверяем, не устарел ли турнир (больше 7 дней)
+            if self._is_tournament_expired(data):
+                logger.info("Турнир устарел, очищаем...")
+                self.clear_current_tournament()
+                return None
             
-            return None
+            return data
             
         except Exception as e:
             logger.error(f"Ошибка при чтении турнира: {e}")
             return None
     
-    # ... остальные методы без изменений ...
+    def clear_current_tournament(self) -> bool:
+        """
+        Очищает текущий турнир
+        """
+        try:
+            if os.path.exists(self.current_tournament_path):
+                os.remove(self.current_tournament_path)
+            logger.info("Текущий турнир очищен из JSON")
+            return True
+        except Exception as e:
+            logger.error(f"Ошибка при очистке турнира: {e}")
+            return False
+    
+    def _is_tournament_expired(self, tournament_data: Dict) -> bool:
+        """
+        Проверяет, не устарел ли турнир (прошло больше 7 дней)
+        """
+        try:
+            meta = tournament_data.get("_meta", {})
+            selected_at = meta.get("selected_at")
+            
+            if not selected_at:
+                return True
+            
+            selected_date = datetime.fromisoformat(selected_at)
+            days_passed = (datetime.now() - selected_date).days
+            
+            return days_passed > 7
+        except:
+            return True
 
 
 # Создаем глобальный экземпляр
