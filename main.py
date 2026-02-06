@@ -2,6 +2,7 @@ import asyncio
 import os
 import logging
 from aiogram import Bot, Dispatcher
+from aiogram.types import BotCommand
 from dotenv import load_dotenv
 
 from handlers import get_all_routers
@@ -27,6 +28,22 @@ if not BOT_TOKEN:
 
 
 # -----------------------
+# Установка команд в меню бота
+# -----------------------
+async def set_bot_commands(bot: Bot):
+    """
+    Устанавливает команды бота, которые будут видны в меню
+    """
+    commands = [
+        BotCommand(command="start", description="Запустить бота"),
+        BotCommand(command="admin", description="Админ-панель")
+    ]
+    
+    await bot.set_my_commands(commands)
+    logger.info("Команды бота установлены в меню")
+
+
+# -----------------------
 # Основная функция
 # -----------------------
 async def main():
@@ -38,6 +55,9 @@ async def main():
     # Регистрируем все роутеры из папки handlers
     for router in get_all_routers():
         dp.include_router(router)
+    
+    # Устанавливаем команды в меню бота
+    await set_bot_commands(bot)
     
     logger.info("Бот запущен! Ожидание сообщений...")
     
