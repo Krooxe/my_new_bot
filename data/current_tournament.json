@@ -1,0 +1,146 @@
+{
+  "id": "600057328",
+  "name": "UFC Fight Night: Bautista vs. Oliveira",
+  "date": "07.02.2026 22:00",
+  "location": "Las Vegas, NV, USA",
+  "fights": [
+    {
+      "fighter1": "Mario Bautista",
+      "fighter2": "Vinicius Oliveira",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.45,
+        "fighter2": 2.75
+      }
+    },
+    {
+      "fighter1": "Kyoji Horiguchi",
+      "fighter2": "Amir Albazi",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.8,
+        "fighter2": 2.05
+      }
+    },
+    {
+      "fighter1": "Rizvan Kuniev",
+      "fighter2": "Jailton Almeida",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.65,
+        "fighter2": 2.25
+      }
+    },
+    {
+      "fighter1": "Michal Oleksiejczuk",
+      "fighter2": "Marc-Andre Barriault",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.9,
+        "fighter2": 1.95
+      }
+    },
+    {
+      "fighter1": "Farid Basharat",
+      "fighter2": "Jean Matsumoto",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.55,
+        "fighter2": 2.4
+      }
+    },
+    {
+      "fighter1": "Dustin Jacoby",
+      "fighter2": "Julius Walker",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 2.1,
+        "fighter2": 1.75
+      }
+    },
+    {
+      "fighter1": "Alex Morono",
+      "fighter2": "Daniil Donchenko",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.7,
+        "fighter2": 2.15
+      }
+    },
+    {
+      "fighter1": "Niko Price",
+      "fighter2": "Nikolay Veretennikov",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.85,
+        "fighter2": 2.0
+      }
+    },
+    {
+      "fighter1": "Bruna Brasil",
+      "fighter2": "Ketlen Souza",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.6,
+        "fighter2": 2.3
+      }
+    },
+    {
+      "fighter1": "Javid Basharat",
+      "fighter2": "Gianni Vazquez",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.95,
+        "fighter2": 1.9
+      }
+    },
+    {
+      "fighter1": "Wang Cong",
+      "fighter2": "Eduarda Moura",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.75,
+        "fighter2": 2.1
+      }
+    },
+    {
+      "fighter1": "Muin Gafurov",
+      "fighter2": "Jakub Wikłacz",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 1.5,
+        "fighter2": 2.5
+      }
+    },
+    {
+      "fighter1": "Priscila Cachoeira",
+      "fighter2": "Klaudia Syguła",
+      "type": "Предварительный",
+      "order": 99,
+      "odds": {
+        "fighter1": 2.0,
+        "fighter2": 1.85
+      }
+    }
+  ],
+  "status": "active",
+  "bets_open": true,
+  "_meta": {
+    "selected_at": "2026-02-09T10:37:51.502249",
+    "updated_at": "2026-02-09T10:37:51.502249",
+    "active": true
+  },
+  "has_odds": true
+}
